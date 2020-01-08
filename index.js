@@ -11,7 +11,7 @@ const config = new twitter({
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
 
-const screen_name = 'akw_88';
+const screen_name = '***';
 const count = 200;
 
 config.get('statuses/user_timeline', {screen_name: screen_name, count: count}, (error, tweets, response) => {
